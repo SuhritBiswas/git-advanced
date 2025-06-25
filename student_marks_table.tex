@@ -1,0 +1,28 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{array}
+\usepackage{multirow}
+
+\begin{document}
+
+\begin{center}
+\textbf{Student Marks Table}
+\end{center}
+
+\vspace{0.5cm}
+
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{S.No} & \textbf{USN} & \textbf{StudentName} & \multicolumn{3}{c|}{\textbf{Marks}} \\
+\cline{4-6}
+ & & & \textbf{Subject1} & \textbf{Subject2} & \textbf{Subject3} \\
+\hline
+1 & 4XX22XX001 & Name1 & 89 & 60 & 90 \\
+\hline
+2 & 4XX22XX002 & Name2 & 78 & 45 & 98 \\
+\hline
+3 & 4XX22XX003 & Name3 & 67 & 55 & 59 \\
+\hline
+\end{tabular}
+
+\end{document}
